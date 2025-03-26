@@ -147,7 +147,8 @@ textarea{
     outline-color: rgba(45, 4, 4, 0.287);
 
 }
-/*.mascara-formulario{
+.mascara-formulario{
+    visibility: hidden;
     position: fixed;
     top: 0;
     width: 100vw;

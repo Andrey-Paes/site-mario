@@ -158,4 +158,57 @@ textarea{
     background: linear-gradient(90deg, rgba(180,58,58,0.6) 0%, rgba(0,0,0,0.596401028277635) 50%, rgba(0,0,0,0.6) 100%);
     transition: visibility 1s ease-in-out;
 }
+    @media (max-width: 800px) {
+        .caixa-principal{
+            display : flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            padding: 10px;
+        }
+        .caixa-mae{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+        .mascara-formulario{
+            visibility: visible;
+        }
+        .img-mario{
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo-mario{
+            width: 80%;
+            height: 80%;
     
+    }
+        .irmãos-encanadores{
+            width: 80vw;
+            height: auto;
+        }
+        .formulario-fale-conosco{
+            left: 0;
+            transform: translateX(0);
+        }
+
+        p{
+            display: none;
+        
+        }
+       .header {
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100vw;
+            gap: 20px;
+            margin: 20px;
+       }}
+    
+

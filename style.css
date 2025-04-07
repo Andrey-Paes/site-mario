@@ -152,8 +152,8 @@ textarea{
     visibility: hidden;
     position: fixed;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: rgb(180,58,58);
     background: linear-gradient(90deg, rgba(180,58,58,0.6) 0%, rgba(0,0,0,0.596401028277635) 50%, rgba(0,0,0,0.6) 100%);
     transition: visibility 1s ease-in-out;
@@ -164,8 +164,8 @@ textarea{
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
-            width: 100%;
+            height: 100vw;
+            width: 100vw;
             padding: 10px;
         }
         .caixa-mae{
@@ -174,11 +174,7 @@ textarea{
             justify-content: center;
             padding: 0;
         }
-        .mascara-formulario{
-            visibility: none;
-            width: 100%;
-            height: 100%;
-        }
+        
         .img-mario{
             width: 100%;
             height: 100%;
@@ -211,6 +207,12 @@ textarea{
             width: 100vw;
             gap: 20px;
             margin: 20px;
-       }}
+
+       }.mascara-formulario{
+            visibility: none;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+        }}
     
 
